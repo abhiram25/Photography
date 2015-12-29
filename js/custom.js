@@ -28,9 +28,12 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
+  $(document).ready(function() {
+    $('.carousel').carousel({
+      interval: 6000
+    })
+  });
 
   
- $('.carousel').carousel({
-        interval: 3200 //changes the speed
-    })
+
 

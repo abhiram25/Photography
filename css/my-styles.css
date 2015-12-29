@@ -40,6 +40,7 @@ section {
 
 .navbar-default .nav li a {
     color: #fff;
+    font-style: bold;
 }
 
 .navbar-default .navbar-nav>.active>a {
@@ -56,8 +57,8 @@ section {
 
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
-    outline: 0;
     color: #FF1493;
+
 }
 
 .navbar-default {
@@ -86,11 +87,13 @@ section {
   
 }
 
-#Service h3 {
+#Service h3,
+#serviceBottom h3  {
     font-family: 'Poiret One', normal;
   font-size: 2.5rem;
   font-style: bold;
 }
+
 
 section h1 {
   font-family: 'Poiret One', normal;
@@ -124,7 +127,7 @@ section h1 {
   
 
 #logo {
-  width: 20.5rem;
+  width: 22.5rem;
   height: auto;
 
 }
@@ -166,12 +169,19 @@ section h1 {
     color: #fff;
 }
 
+.bottom-portfolio {
+  margin-top: 55px;
+
+}
+
 
 
 /* ==========================================================================
 Waypoints
 ========================================================================== */
-.wp1, .wp2, .wp3, .wp4, .wp5, .wp6 { visibility: hidden; }
+.wp1, .wp2, .wp3, .wp4, .wp5, .wp6 {
+ visibility: hidden; 
+}
 .bounceInLeft, .bounceInRight, .fadeInUp, .fadeInUpDelay, .fadeInDown, .fadeInUpD, .fadeInLeft, .fadeInRight { visibility: visible; }
 .delay-05s { animation-delay: 0.5s; -webkit-animation-delay: 0.5s; }
 .delay-1s { animation-delay: 1s; -webkit-animation-delay: 1s; }
@@ -217,6 +227,9 @@ Waypoints
   padding-top: 75px;
 }
 
+.bottom-icons {
+  margin-top: 55px;
+}
 
 
 
@@ -364,7 +377,7 @@ ul.social-buttons li a:hover {
   color: #fff;
   padding-right: 15px;
   font-family: 'Poiret One', normal;
-  font-size: 2rem;
+  font-size: 2.2rem;
 }
 
 
@@ -465,6 +478,10 @@ a
 
 
 
+}
+
+footer {
+    margin: 50px 0;
 }
 
 
