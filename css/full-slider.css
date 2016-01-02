@@ -23,6 +23,9 @@ body {
   transition-property: opacity;
   transition-duration: 4s;
 }
+
+
+
 .carousel-fade .carousel-inner .active {
   opacity: 1;
 }
