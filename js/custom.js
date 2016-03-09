@@ -28,12 +28,11 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
-  $(document).ready(function() {
-    $('.carousel').carousel({
-      interval: 6000
+    $(function() {
+      $('.carousel').carousel({
+        interval: 4000
+      })
     })
-  });
-
   
 
 

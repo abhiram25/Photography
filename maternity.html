@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Portfolio | Maternity</title>
+		<meta name="description" content="Loading Effects for Grid Items with CSS Animations" />
+		<meta name="keywords" content="css animation, loading effect, google plus, grid items, masonry" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico"> 
+		 <link href="css/bootstrap.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link href="https://fonts.googleapis.com/css?family=Electrolize|Ruda|Philosopher" rel="stylesheet" type="text/css">
+   <link href='https://fonts.googleapis.com/css?family=Poiret+One|Podkova|Work+Sans:400,200,300&subset=latin,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/collage.css">
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<nav id="#top" class="navbar navbar-default">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html">
+        <span class= "glyphicon glyphicon-arrow-left"></span><p>Back to Portfolio</p>	
+      </a>
+      <a class="logo" href="index.html">
+        <img src="img/logo.jpg">	
+      </a>
+
+  </div>
+</nav>
+
+		<div class="container">
+			<!-- Top Navigation -->
+			<header>
+				<h1>Maternity</h1>	
+				<nav class="codrops-demos">
+					<a href="index.html">Family</a>
+					<a class="current-demo" href="maternity.html">Maternity</a>
+					<a href="index3.html">Children</a>
+					<a href="index4.html">Engagement</a>
+					<a href="index5.html">Holiday</a>
+				</nav>
+			</header>
+			<ul class="grid effect-2" id="grid">
+				<li><img src="img/maternity1.jpg"></li>
+				<li><img src="img/maternity8.jpg"></li>
+				<li><img src="img/maternity4.jpg"></li>
+				<li><img src="img/maternity2.jpg"></li>
+				<li><img src="img/maternity3.jpg"></li>
+				<li><img src="img/maternity7.jpg"></li>
+				<li><img src="img/maternity5.jpg"></li>
+				<li><img src="img/maternity6.jpg"></li>
+				<li><img src="img/maternity9.jpg"></li>
+				<li><img src="img/maternity11.jpg"></li>
+				<li><img src="img/maternity12.jpg"></li>
+				<li><img src="img/maternity13.jpg"></li>
+				<li><img src="img/maternity14.jpg"></li>
+				</ul>
+		</div>
+		<script src="js/masonry.pkgd.min.js"></script>
+		<script src="js/imagesloaded.js"></script>
+		<script src="js/classie.js"></script>
+		<script src="js/AnimOnScroll.js"></script>
+		<script>
+			new AnimOnScroll( document.getElementById( 'grid' ), {
+				minDuration : 0.4,
+				maxDuration : 0.7,
+				viewportFactor : 0.2
+			} );
+		</script>
+		<footer>
+			<a href="#top">Back To Top</a>
+		</footer>	
+	</body>
+</html>

@@ -1,0 +1,131 @@
+
+
+.navbar-default .nav li a {
+    color: #fff;
+    font-style: bold;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    border-radius: 0;
+    color: #fff;
+    background-color: #FF1493;
+}
+
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: #FF1493;
+}
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    color: #FF1493;
+
+}
+
+.navbar-default {
+            padding-top:  5px;
+        padding-bottom: 12px;
+    background-color: #222;
+}
+
+.active {
+    border-radius: 3px;
+  background-color: #FF1493;
+  color: #fff;
+}
+
+.navbar-default .nav li a  {
+  color: #fff;
+  padding-right: 15px;
+  font-family: 'Poiret One', normal;
+  font-size: 2.2rem;
+}
+
+.navbar-default .navbar-collapse {
+    border-color: rgba(255,255,255,.02);
+}
+
+
+
+.navbar .nav {
+  padding-top: 10px;
+  padding-right: 25px;
+  
+  
+}
+
+
+
+.navbar-default .navbar-nav>.active>a:hover{
+  background-color: #FF1493;
+  color: #fff;
+}
+
+
+.navbar-default .navbar-collapse {
+    border-color: rgba(255,255,255,.02);
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #FF1493;
+    background-color: #FF1493;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #FF1493;
+}
+
+#logo {
+  width: 20.5rem;
+  height: auto;
+
+}
+
+.portfolioFilter {
+  margin: 25px;
+}
+
+.portfolioFilter a {
+  border: 2px solid #FF1493;
+  padding: 5px 10px 5px;
+  display: inline-block;
+  margin: 0px 10px 10px 10px;
+  background: #fff;
+  color: #FF1493;
+  font-size: 20px;
+}
+
+.portfolioFilter a:hover {
+  background: #FF1493;
+  color: #fff;
+  text-decoration: none;
+}
+
+header {
+  padding-top: 100px;
+  text-align: center;
+}
+
+h1 {
+    font-family: 'Poiret One', normal;
+  font-size: 5.5rem;
+  font-weight: bold;
+  color: #FF1493;
+}
+
+#wrapper {
+  width: 90%;
+  height: 600px;
+  background-color: red;
+  margin: 0 auto;
+}
+
+.item {
+  float: left;
+}

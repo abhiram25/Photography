@@ -12,8 +12,8 @@ section {
 
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
-	font-family: Flaticon;
-        font-size: 60px !important;
+  font-family: Flaticon;
+        font-size: 110px !important;
   margin: 0 auto !important;
   
 }
@@ -29,14 +29,12 @@ section {
   padding-top: 15px;
 }
 
-.text-primary {
+
+
+#services span > i {
+  font-size: 60px;
   color: #13b3e7;
 }
-
-.text-primary i {
-  font-size: 40px;
-}
-
 
 .navbar-default .nav li a {
     color: #fff;
@@ -174,6 +172,14 @@ section h1 {
 
 }
 
+/*Read More */
+
+.morecontent span {
+    display: none;
+}
+.morelink {
+    display: block;
+}
 
 
 /* ==========================================================================
@@ -235,18 +241,21 @@ Waypoints
 
 
 #testimonials h1 {
-  padding-bottom: 20px; 
+  padding-bottom: 50px; 
 }
 
-#testimonials {
-  padding-top: 40px; 
-}
+
 
 #testimonials p {
   font-family: 'Podkova', serif;
   font-style: italic;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   line-height:2;
+  margin: 25px;
+}
+
+.testimonials  {
+  margin-top: 50px;
 }
 
 .review {
@@ -260,13 +269,12 @@ Waypoints
    height: 70px;
 }
 
-#reviews img {
-  padding-top: 35px; 
+#posts img:nth-of-type(1) {
+  margin-top: 10px;
 }
-  
-#posts {
-  padding-top: 55px;
-}
+
+
+
 
 #contact {
  padding-top: 70px; 
@@ -455,7 +463,6 @@ a
 }
 
 #posts img {
-  padding-top: 10px;
   margin-left: 10px;
 }
 
@@ -526,21 +533,6 @@ footer {
 }
   
 }
-
-@media only screen and (max-width : 992px) {
-      
-  
-
-  
-
-
-  
-    #posts div p {
-      margin-bottom: 75px;
-    }
-
-  
-    }
 
 
 
