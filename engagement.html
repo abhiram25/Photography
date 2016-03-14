@@ -11,12 +11,22 @@
 		<link rel="shortcut icon" href="../favicon.ico"> 
 		 <link href="css/bootstrap.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link href="css/xGallery.css" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Electrolize|Ruda|Philosopher" rel="stylesheet" type="text/css">
    <link href='https://fonts.googleapis.com/css?family=Poiret+One|Podkova|Work+Sans:400,200,300&subset=latin,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/collage.css">
 		<script src="js/modernizr.custom.js"></script>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/xGallery.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    $("#grid").xGallery();
+});
+</script>
 	</head>
 	<body>
 		<nav id="#top" class="navbar navbar-default">
@@ -43,11 +53,11 @@
 					<a href="Holiday.html">Holiday</a>
 				</nav>
 			</header>
-			<ul class="grid effect-2" id="grid">
-				<li style = "width: 50%"><img src="Engagement/engagement1.jpg"></li>
-				<li style = "width: 50%"><img src="Engagement/engagement2.jpg"></li>
-				<li style = "width: 50%"><img src="Engagement/engagement3.jpg"></li>
-				<li style = "width: 50%"><img src="Engagement/engagement4.jpg"></li>
+			<ul class="grid effect-2 xpager-gallery" id="grid">
+				<li style = "width: 50%"><img src="Engagement/engagement1.jpg" data-img="Engagement/engagement1.jpg"></li>
+				<li style = "width: 50%"><img src="Engagement/engagement2.jpg" data-img="Engagement/engagement2.jpg"></li>
+				<li style = "width: 50%"><img src="Engagement/engagement3.jpg" data-img="Engagement/engagement3.jpg"></li>
+				<li style = "width: 50%"><img src="Engagement/engagement4.jpg" data-img="Engagement/engagement4.jpg"></li>
 				</ul>
 		</div>
 		<script src="js/masonry.pkgd.min.js"></script>

@@ -126,6 +126,15 @@ footer {
 	font-size: 1.1em;
 }
 
+.xpager-gallery .surface .close_btn {
+	font-family: 'Lato', sans-serif;
+}
+
+.xpager-gallery .surface .nummber {
+	display: none;
+}
+
+
 
 @media screen and (max-width: 25em) {
 
