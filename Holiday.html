@@ -9,14 +9,23 @@
 		<meta name="keywords" content="css animation, loading effect, google plus, grid items, masonry" />
 		<meta name="author" content="Codrops" />
 		<link rel="shortcut icon" href="../favicon.ico"> 
+		<link href="css/xGallery.css" rel="stylesheet">
 		 <link href="css/bootstrap.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
 		<link href="https://fonts.googleapis.com/css?family=Electrolize|Ruda|Philosopher" rel="stylesheet" type="text/css">
    <link href='https://fonts.googleapis.com/css?family=Poiret+One|Podkova|Work+Sans:400,200,300&subset=latin,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/collage.css">
 		<script src="js/modernizr.custom.js"></script>
+				<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/xGallery.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    $("#grid").xGallery();
+});
+</script>
 	</head>
 	<body>
 		<nav id="#top" class="navbar navbar-default">
@@ -43,9 +52,9 @@
 					<a class="current-demo" href="Holiday.html">Holiday</a>
 				</nav>
 			</header>
-			<ul class="grid effect-2" id="grid">
-				<li><img src="Holiday/Holiday1.jpg"></li>
-				<li><img src="Holiday/Holiday2.jpg"></li>
+			<ul class="grid effect-2 xpager-gallery" id="grid">
+				<li><img src="Holiday/Holiday1.jpg" data-img="Holidaypop/Holiday1pop.jpg"></li>
+				<li><img src="Holiday/Holiday2.jpg" data-img="Holidaypop/Holiday2pop.jpg"></li>
 				<li><img src="Holiday/Holiday3.jpg"></li>
 				<li><img src="Holiday/Holiday4.jpg"></li>
 				<li><img src="Holiday/Holiday5.jpg"></li>
