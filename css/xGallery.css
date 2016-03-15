@@ -109,6 +109,8 @@ xxxxxxx      xxxxxxxPPPPPPPPPP          aaaaaaaaaa  aaaa   gggggggg::::::g     e
     z-index:999;
     overflow:hidden;
     opacity:0;
+    height:90%;
+    width:90%;
 }
 
 .xpager-gallery .surface .loader{
