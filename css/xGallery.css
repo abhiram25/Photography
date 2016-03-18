@@ -72,12 +72,6 @@ xxxxxxx      xxxxxxxPPPPPPPPPP          aaaaaaaaaa  aaaa   gggggggg::::::g     e
     width:90%;
 }
 
-
-
-.xpager-gallery .surface .border{
-    z-index: 1;
-}
-
 .xpager-gallery .surface .border img{
     position:absolute;
     top: 0;
@@ -89,8 +83,19 @@ xxxxxxx      xxxxxxxPPPPPPPPPP          aaaaaaaaaa  aaaa   gggggggg::::::g     e
     max-width: 100%;
     max-height: 100%;
     width: auto;
-    height: 100%;
+    height: auto;
 }
+
+
+
+
+
+
+.xpager-gallery .surface .border{
+    z-index: 1;
+}
+
+
 
 
 
