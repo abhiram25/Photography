@@ -73,22 +73,7 @@ xxxxxxx      xxxxxxxPPPPPPPPPP          aaaaaaaaaa  aaaa   gggggggg::::::g     e
     width:90%;
 }
 
-.xpager-gallery .surface .loader{
-    display:block;
-	color:#fff;
-    position:absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    height:50px;
-    width:50px;
-    background-size:cover;
-    font-size: 35px;
-    text-align: center;
-    line-height: 50px;
-}
+
 
 .xpager-gallery .surface .border{
     z-index: 1;

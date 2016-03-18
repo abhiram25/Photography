@@ -42,7 +42,7 @@ var xGallery = function(options,fx){
         id:false,
         obj:false,
         animationType:"fade",
-        animationSpeed: 600,
+        animationSpeed: 900,
         touchControl:true,
         keyControl:true,
         showPageNum:true,           // Page Nummbers
