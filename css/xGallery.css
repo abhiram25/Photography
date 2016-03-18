@@ -128,12 +128,13 @@ xxxxxxx      xxxxxxxPPPPPPPPPP          aaaaaaaaaa  aaaa   gggggggg::::::g     e
 
 
         .xpager-gallery .surface .prev_btn {
-    left: 0;
+    left: 15px;
 }
 
 .xpager-gallery .surface .next_btn{
-    right: 0;
+    right:  15px;
 }
+
 
 
 
