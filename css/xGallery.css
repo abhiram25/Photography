@@ -43,49 +43,9 @@ xxxxxxx      xxxxxxxPPPPPPPPPP          aaaaaaaaaa  aaaa   gggggggg::::::g     e
     display:inline-block;
 }
 
-.xpager-gallery .page-navigation {
-    display:inline-block;
-    margin:5px;
-    height:35px;
-    width:35px;
-    border:solid 1px #ccc;
-    text-align:center;
-    line-height:32px;
-}
 
-.xpager-gallery .page-num{
-    display:inline-block;
-    margin:5px;
-    height:35px;
-    width:35px;
-    text-align:center;
-    line-height:32px;
-}
 
-.xpager-gallery .page-points{
-    display:inline-block;
-    height:35px;
-}
 
-.xpager-gallery .page-points .points-content .point{
-    display:inline-block;
-    height:20px;
-    width:20px;
-    text-align:center;
-    line-height:16px;
-    border:solid 2px #ccc;
-    border-radius:10px;
-    font-size:12px;
-    margin:5px;
-}
-
-.xpager-gallery .page-points .points-content .point.activ{
-    border-color:#666;
-}
-
-.xpager-gallery .page-points .points-content .point span{
-    margin-right:1px;
-}
 
 .xpager-gallery .surface{
     position:fixed;
@@ -166,31 +126,17 @@ xxxxxxx      xxxxxxxPPPPPPPPPP          aaaaaaaaaa  aaaa   gggggggg::::::g     e
     line-height: 60px;
 }
 
-@media only screen and (min-width: 768px) {
 
         .xpager-gallery .surface .prev_btn {
-    left: 1%;
+    left: 0;
 }
 
 .xpager-gallery .surface .next_btn{
-    right: 1%;
+    right: 0;
 }
 
-}
 
 
-
-
-@media only screen and (max-width: 768px) {
-    .xpager-gallery .surface .prev_btn {
-    left: 0px;
-}
-
-.xpager-gallery .surface .next_btn{
-    right: 0px;
-}
-
-    }
 
 
 
@@ -223,19 +169,3 @@ xxxxxxx      xxxxxxxPPPPPPPPPP          aaaaaaaaaa  aaaa   gggggggg::::::g     e
     content:"x";
 }
 
-.xpager-gallery .surface .comment{
-	position: fixed;
-	color: #fff;
-	bottom: 5px;
-    left:0px;
-	width: 100%;
-	text-align: center;
-}
-
-.xpager-gallery .surface .nummber{
-    position: fixed;
-	color: #fff;
-	bottom: 10px;
-    right:10px;
-	text-align: center;  
-}
