@@ -66,7 +66,6 @@ xxxxxxx      xxxxxxxPPPPPPPPPP          aaaaaaaaaa  aaaa   gggggggg::::::g     e
     right: 0;
     margin: auto;
     z-index:999;
-    overflow:hidden;
     opacity:0;
     height:90%;
     width:90%;
@@ -83,7 +82,7 @@ xxxxxxx      xxxxxxxPPPPPPPPPP          aaaaaaaaaa  aaaa   gggggggg::::::g     e
     max-width: 100%;
     max-height: 100%;
     width: auto;
-    height: auto;
+    height: 100%;
 }
 
 
