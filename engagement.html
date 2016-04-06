@@ -11,22 +11,18 @@
 		<link rel="shortcut icon" href="../favicon.ico"> 
 		 <link href="css/bootstrap.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link href='css/simplelightbox.min.css' rel='stylesheet' type='text/css'>
 		<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
 		<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
-		<link href="css/xGallery.css" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Electrolize|Ruda|Philosopher" rel="stylesheet" type="text/css">
    <link href='https://fonts.googleapis.com/css?family=Poiret+One|Podkova|Work+Sans:400,200,300&subset=latin,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/collage.css">
 		<script src="js/modernizr.custom.js"></script>
 		<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="js/xGallery.js"></script>
-<script type="text/javascript">
-$(document).ready(function(){
-    $("#grid").xGallery();
-});
-</script>
+
+
 	</head>
 	<body>
 		<nav id="#top" class="navbar navbar-default">
@@ -53,23 +49,69 @@ $(document).ready(function(){
 					<a href="Holiday.html">Holiday</a>
 				</nav>
 			</header>
-			<ul class="grid effect-2 xpager-gallery" id="grid">
-				<li style = "width: 50%"><img src="Engagement/engagement1.jpg" data-img="EngagementPop/EngagementPop1.jpg"></li>
-				<li style = "width: 50%"><img src="Engagement/engagement2.jpg" data-img="EngagementPop/EngagementPop2.jpg"></li>
-				<li style = "width: 50%"><img src="Engagement/engagement3.jpg" data-img="EngagementPop/EngagementPop3.jpg"></li>
-				<li style = "width: 50%"><img src="Engagement/engagement4.jpg" data-img="EngagementPop/EngagementPop4.jpg"></li>
+			<ul class="grid effect-2 gallery" id="grid">
+				<li style = "width: 50%"><a href="EngagementPop/1.png"><img src="Engagement/engagement1.jpg"></a></li>
+				<li style = "width: 50%"><a href="EngagementPop/2.png"><img src="Engagement/engagement2.jpg"></a></li>
+				<li style = "width: 50%"><a href="EngagementPop/3.png"><img src="Engagement/engagement3.jpg"></a></li>
+				<li style = "width: 50%"><a href="EngagementPop/4.png"><img src="Engagement/engagement4.jpg"></a></li>
 				</ul>
 		</div>
 		<script src="js/masonry.pkgd.min.js"></script>
 		<script src="js/imagesloaded.js"></script>
 		<script src="js/classie.js"></script>
 		<script src="js/AnimOnScroll.js"></script>
+		<script type="text/javascript" src="js/simple-lightbox.js"></script>
 		<script>
 			new AnimOnScroll( document.getElementById( 'grid' ), {
 				minDuration : 0.4,
 				maxDuration : 0.7,
 				viewportFactor : 0.2
 			} );
+
+							$(function(){
+		var $gallery = $('.gallery a').simpleLightbox();
+		
+		$gallery.on('show.simplelightbox', function(){
+			console.log('Requested for showing');
+		})
+		.on('shown.simplelightbox', function(){
+			console.log('Shown');
+		})
+		.on('close.simplelightbox', function(){
+			console.log('Requested for closing');
+		})
+		.on('closed.simplelightbox', function(){
+			console.log('Closed');
+		})
+		.on('change.simplelightbox', function(){
+			console.log('Requested for change');
+		})
+		.on('next.simplelightbox', function(){
+			console.log('Requested for next');
+		})
+		.on('prev.simplelightbox', function(){
+			console.log('Requested for prev');
+		})
+		.on('nextImageLoaded.simplelightbox', function(){
+			console.log('Next image loaded');
+		})
+		.on('prevImageLoaded.simplelightbox', function(){
+			console.log('Prev image loaded');
+		})
+		.on('changed.simplelightbox', function(){
+			console.log('Image changed');
+		})
+		.on('nextDone.simplelightbox', function(){
+			console.log('Image changed to next');
+		})
+		.on('prevDone.simplelightbox', function(){
+			console.log('Image changed to prev');
+		})
+		.on('error.simplelightbox', function(e){
+			console.log('No image found, go to the next/prev');
+			console.log(e);
+		});
+	});
 		</script>
 		<footer>
 			<a href="#top">Back To Top</a>
