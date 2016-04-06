@@ -9,9 +9,9 @@
 		<meta name="keywords" content="css animation, loading effect, google plus, grid items, masonry" />
 		<meta name="author" content="Codrops" />
 		<link rel="shortcut icon" href="../favicon.ico"> 
-		<link href="css/xGallery.css" rel="stylesheet">
 		 <link href="css/bootstrap.min.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link href='css/simplelightbox.min.css' rel='stylesheet' type='text/css'>
 		<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
 		<link href="https://fonts.googleapis.com/css?family=Electrolize|Ruda|Philosopher" rel="stylesheet" type="text/css">
@@ -20,11 +20,9 @@
     <link rel="stylesheet" type="text/css" href="css/collage.css">
 		<script src="js/modernizr.custom.js"></script>
 				<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="js/xGallery.js"></script>
+
 <script type="text/javascript">
-$(document).ready(function(){
-    $("#grid").xGallery();
-});
+
 </script>
 	</head>
 	<body>
@@ -52,43 +50,89 @@ $(document).ready(function(){
 					<a class="current-demo" href="Holiday.html">Holiday</a>
 				</nav>
 			</header>
-			<ul class="grid effect-2 xpager-gallery" id="grid">
-				<li><img src="Holiday/Holiday1.jpg" data-img="Holidaypop/Holiday1pop.png"></li>
-				<li><img src="Holiday/Holiday2.jpg" data-img="Holidaypop/Holiday2pop.png"></li>
-				<li class="rectangle"><img src="Holiday/Holiday3.jpg" data-img="Holidaypop/Holiday3pop.png"></li>
-				<li><img src="Holiday/Holiday4.jpg" data-img="Holidaypop/Holiday4pop.png"></li>
-				<li><img src="Holiday/Holiday5.jpg" data-img="Holidaypop/Holiday5pop.png"></li>
-				<li><img src="Holiday/Holiday6.jpg" data-img="Holidaypop/Holiday6pop.png"></li>
-				<li><img src="Holiday/Holiday7.jpg" data-img="Holidaypop/Holiday7pop.png"></li>
-				<li><img src="Holiday/Holiday8.jpg" data-img="Holidaypop/Holiday8pop.png"></li>
-				<li><img src="Holiday/Holiday9.jpg" data-img="Holidaypop/Holiday9pop.png"></li>
-				<li><img src="Holiday/Holiday10.jpg" data-img="Holidaypop/Holiday10pop.png"></li>
-				<li><img src="Holiday/Holiday12.jpg" data-img="Holidaypop/Holiday12pop.png"></li>
-				<li><img src="Holiday/Holiday13.jpg" data-img="Holidaypop/Holiday13pop.png"></li>
-				<li><img src="Holiday/Holiday14.jpg" data-img="Holidaypop/Holiday14pop.png"></li>
-				<li><img src="Holiday/Holiday15.jpg" data-img="Holidaypop/Holiday15pop.png"></li>
-				<li><img src="Holiday/Holiday16.jpg" data-img="Holidaypop/Holiday16pop.png"></li>
-				<li><img src="Holiday/Holiday17.jpg" data-img="Holidaypop/Holiday17pop.png"></li>
-				<li><img src="Holiday/Holiday18.jpg" data-img="Holidaypop/Holiday18pop.png"></li>
-				<li><img src="Holiday/Holiday19.jpg" data-img="Holidaypop/Holiday19pop.png"></li>
-				<li><img src="Holiday/Holiday20.jpg" data-img="Holidaypop/Holiday20pop.png"></li>
-				<li><img src="Holiday/Holiday21.jpg" data-img="Holidaypop/Holiday21pop.png"></li>
-				<li><img src="Holiday/Holiday22.jpg" data-img="Holidaypop/Holiday22pop.png"></li>
-				<li><img src="Holiday/Holiday23.jpg" data-img="Holidaypop/Holiday23pop.png"></li>
-				<li><img src="Holiday/Holiday24.jpg" data-img="Holidaypop/Holiday24pop.png"></li>
-				<li><img src="Holiday/Holiday25.jpg" data-img="Holidaypop/Holiday25pop.png"></li>
+			<ul class="grid effect-2 gallery" id="grid">
+				<li><a href="Holidaypop/Holiday1.png"><img src="Holiday/Holiday1.jpg"></a></li>
+				<li><a href="Holidaypop/Holiday2.png"><img src="Holiday/Holiday2.jpg"></a></li>
+				<li><a href="Holidaypop/Holiday3.png"><img src="Holiday/Holiday3.jpg"></a></li>
+				<li><a href="Holidaypop/Holiday4.png"><img src="Holiday/Holiday4.jpg"></a></li>
+				<li><a href="Holidaypop/Holiday5.png"><img src="Holiday/Holiday5.jpg"></a></li>
+				<li><a href="Holidaypop/Holiday6.png"><img src="Holiday/Holiday6.jpg"></a></li>
+				<li><a href="Holidaypop/Holiday7.png"><img src="Holiday/Holiday7.jpg"></a></li>
+				<li><a href="Holidaypop/Holiday8.png"><img src="Holiday/Holiday8.jpg"></a></li>
+				<li><a href="Holidaypop/Holiday9.png"><img src="Holiday/Holiday9.jpg"></a></li>
+				<li><a href="Holidaypop/Holiday10.png"><img src="Holiday/Holiday10.jpg" ></a></li>
+				<li><a href="Holidaypop/Holiday11.png"><img src="Holiday/Holiday12.jpg" ></a></li>
+				<li><a href="Holidaypop/Holiday12.png"><img src="Holiday/Holiday13.jpg"></a></li>
+				<li><a href="Holidaypop/Holiday13.png"><img src="Holiday/Holiday14.jpg" ></a></li>
+				<li><a href="Holidaypop/Holiday14.png"><img src="Holiday/Holiday15.jpg"></a></li>
+				<li><a href="Holidaypop/Holiday15.png"><img src="Holiday/Holiday16.jpg"></a></li>
+				<li><a href="Holidaypop/Holiday16.png"><img src="Holiday/Holiday17.jpg" ></a></li>
+				<li><a href="Holidaypop/Holiday17.png"><img src="Holiday/Holiday18.jpg" ></a></li>
+				<li><a href="Holidaypop/Holiday18.png"><img src="Holiday/Holiday19.jpg" ></a></li>
+				<li><a href="Holidaypop/Holiday19.png"><img src="Holiday/Holiday20.jpg" ></a></li>
+				<li><a href="Holidaypop/Holiday20.png"><img src="Holiday/Holiday21.jpg" ></a></li>
+				<li><a href="Holidaypop/Holiday21.png"><img src="Holiday/Holiday22.jpg" ></a></li>
+				<li><a href="Holidaypop/Holiday22.png"><img src="Holiday/Holiday23.jpg" ></a></li>
+				<li><a href="Holidaypop/Holiday23.png"><img src="Holiday/Holiday24.jpg" ></a></li>
+				<li><a href="Holidaypop/Holiday24.png"><img src="Holiday/Holiday25.jpg">></a></li>
 				</ul>
 		</div>
 		<script src="js/masonry.pkgd.min.js"></script>
 		<script src="js/imagesloaded.js"></script>
 		<script src="js/classie.js"></script>
 		<script src="js/AnimOnScroll.js"></script>
+		<script type="text/javascript" src="js/simple-lightbox.js"></script>
 		<script>
 			new AnimOnScroll( document.getElementById( 'grid' ), {
 				minDuration : 0.4,
 				maxDuration : 0.7,
 				viewportFactor : 0.2
 			} );
+
+				$(function(){
+		var $gallery = $('.gallery a').simpleLightbox();
+		
+		$gallery.on('show.simplelightbox', function(){
+			console.log('Requested for showing');
+		})
+		.on('shown.simplelightbox', function(){
+			console.log('Shown');
+		})
+		.on('close.simplelightbox', function(){
+			console.log('Requested for closing');
+		})
+		.on('closed.simplelightbox', function(){
+			console.log('Closed');
+		})
+		.on('change.simplelightbox', function(){
+			console.log('Requested for change');
+		})
+		.on('next.simplelightbox', function(){
+			console.log('Requested for next');
+		})
+		.on('prev.simplelightbox', function(){
+			console.log('Requested for prev');
+		})
+		.on('nextImageLoaded.simplelightbox', function(){
+			console.log('Next image loaded');
+		})
+		.on('prevImageLoaded.simplelightbox', function(){
+			console.log('Prev image loaded');
+		})
+		.on('changed.simplelightbox', function(){
+			console.log('Image changed');
+		})
+		.on('nextDone.simplelightbox', function(){
+			console.log('Image changed to next');
+		})
+		.on('prevDone.simplelightbox', function(){
+			console.log('Image changed to prev');
+		})
+		.on('error.simplelightbox', function(e){
+			console.log('No image found, go to the next/prev');
+			console.log(e);
+		});
+	});
 		</script>
 		<footer>
 			<a href="#top">Back To Top</a>
