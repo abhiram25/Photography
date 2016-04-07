@@ -11,12 +11,14 @@
     <link rel="shortcut icon" href="../favicon.ico"> 
      <link href="css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/default.css" />
+    <link href='css/simplelightbox.min.css' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/component.css" />
     <link href="https://fonts.googleapis.com/css?family=Electrolize|Ruda|Philosopher" rel="stylesheet" type="text/css">
    <link href='https://fonts.googleapis.com/css?family=Poiret+One|Podkova|Work+Sans:400,200,300&subset=latin,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/collage.css">
     <script src="js/modernizr.custom.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
   </head>
   <body>
     <nav id="#top" class="navbar navbar-default">
@@ -43,52 +45,98 @@
           <a href="Holiday.html">Holiday</a>        
         </nav>
       </header>
-      <ul class="grid effect-2" id="grid">
-        <li><img src="family/family1.jpg"></li>
-        <li><img src="family/family2.jpg"></li>
-        <li><img src="family/family3.jpg"></li>
-        <li><img src="family/family4.jpg"></li>
-        <li><img src="family/family5.jpg"></li>
-        <li><img src="family/family6.jpg"></li>
-        <li><img src="family/family7.jpg"></li>
-        <li><img src="family/family8.jpg"></li>
-        <li><img src="family/family9.jpg"></li>
-        <li><img src="family/family10.jpg"></li>
-        <li><img src="family/family11.jpg"></li>
-        <li><img src="family/family12.jpg"></li>
-        <li><img src="family/family13.jpg"></li>
-        <li><img src="family/family14.jpg"></li>
-        <li><img src="family/family15.jpg"></li>
-        <li><img src="family/family16.jpg"></li>
-        <li><img src="family/family17.jpg"></li>
-        <li><img src="family/family18.jpg"></li>
-        <li><img src="family/family19.jpg"></li>
-        <li><img src="family/family20.jpg"></li>
-        <li><img src="family/family21.jpg"></li>
-        <li><img src="family/family22.jpg"></li>
-        <li><img src="family/family23.jpg"></li>
-        <li><img src="family/family24.jpg"></li>
-        <li><img src="family/family25.jpg"></li>
-        <li><img src="family/family26.jpg"></li>
-        <li><img src="family/family27.jpg"></li>
-        <li><img src="family/family28.jpg"></li>
-        <li><img src="family/family29.jpg"></li>
-        <li><img src="family/family30.jpg"></li>
-        <li><img src="family/family31.jpg"></li>
-        <li><img src="family/family33.jpg"></li>
-        <li><img src="family/family34.jpg"></li>
+      <ul class="grid effect-2 gallery" id="grid">
+        <li><a href="familypop/7.png"><img src="family/family1.jpg"></a></li>
+        <li><a href="familypop/1.png"><img src="family/family2.jpg"></a></li>
+        <li><a href="familypop/8.png"><img src="family/family3.jpg"></a></li>
+        <li><a href="familypop/6.png"><img src="family/family4.jpg"></a></li>
+        <li><a href="familypop/2.png"><img src="family/family5.jpg"></a></li>
+        <li><a href="familypop/11.png"><img src="family/family6.jpg"></a></li>
+        <li><a href="familypop/13.png"><img src="family/family7.jpg"></a></li>
+        <li><a href="familypop/15.png"><img src="family/family8.jpg"></a></li>
+        <li><a href="familypop/9.png"><img src="family/family9.jpg"></a></li>
+        <li><a href="familypop/14.png"><img src="family/family10.jpg"></a></li>
+        <li><a href="familypop/19.png"><img src="family/family11.jpg"></a></li>
+        <li><a href="familypop/20.png"><img src="family/family12.jpg"></a></li>
+        <li><a href="familypop/4.png"><img src="family/family13.jpg"></a></li>
+        <li><a href="familypop/27.png"><img src="family/family14.jpg"></a></li>
+        <li><a href="familypop/31.png"><img src="family/family15.jpg"></a></li>
+        <li><a href="familypop/17.png"><img src="family/family16.jpg"></a></li>
+        <li><a href="familypop/9.png"><img src="family/family17.jpg"></a></li>
+        <li><a href="familypop/28.png"><img src="family/family18.jpg"></a></li>
+        <li><a href="familypop/16.png"><img src="family/family19.jpg"></a></li>
+        <li><a href="familypop/33.png"><img src="family/family20.jpg"></a></li>
+        <li><a href="familypop/21.png"><img src="family/family21.jpg"></a></li>
+        <li><a href="familypop/10.png"><img src="family/family22.jpg"></a></li>
+        <li><a href="familypop/22.png"><img src="family/family23.jpg"></a></li>
+        <li><a href="familypop/23.png"><img src="family/family24.jpg"></a></li>
+        <li><a href="familypop/24.png"><img src="family/family25.jpg"></a></li>
+        <li><a href="familypop/25.png"><img src="family/family26.jpg"></a></li>
+        <li><a href="familypop/26.png"><img src="family/family27.jpg"></a></li>
+        <li><a href="familypop/29.png"><img src="family/family28.jpg"></a></li>
+        <li><a href="familypop/30.png"><img src="family/family29.jpg"></a></li>
+        <li><a href="familypop/5.png"><img src="family/family30.jpg"></a></li>
+        <li><a href="familypop/32.png"><img src="family/family31.jpg"></a></li>
+        <li><a href="familypop/18.png"><img src="family/family33.jpg"></a></li>
+        <li><a href="familypop/3.png"><img src="family/family34.jpg"></a></li>
         </ul>
     </div>
     <script src="js/masonry.pkgd.min.js"></script>
     <script src="js/imagesloaded.js"></script>
     <script src="js/classie.js"></script>
     <script src="js/AnimOnScroll.js"></script>
+    <script type="text/javascript" src="js/simple-lightbox.js"></script>
     <script>
       new AnimOnScroll( document.getElementById( 'grid' ), {
         minDuration : 0.4,
         maxDuration : 0.7,
         viewportFactor : 0.2
       } );
+
+                        $(function(){
+    var $gallery = $('.gallery a').simpleLightbox();
+    
+    $gallery.on('show.simplelightbox', function(){
+      console.log('Requested for showing');
+    })
+    .on('shown.simplelightbox', function(){
+      console.log('Shown');
+    })
+    .on('close.simplelightbox', function(){
+      console.log('Requested for closing');
+    })
+    .on('closed.simplelightbox', function(){
+      console.log('Closed');
+    })
+    .on('change.simplelightbox', function(){
+      console.log('Requested for change');
+    })
+    .on('next.simplelightbox', function(){
+      console.log('Requested for next');
+    })
+    .on('prev.simplelightbox', function(){
+      console.log('Requested for prev');
+    })
+    .on('nextImageLoaded.simplelightbox', function(){
+      console.log('Next image loaded');
+    })
+    .on('prevImageLoaded.simplelightbox', function(){
+      console.log('Prev image loaded');
+    })
+    .on('changed.simplelightbox', function(){
+      console.log('Image changed');
+    })
+    .on('nextDone.simplelightbox', function(){
+      console.log('Image changed to next');
+    })
+    .on('prevDone.simplelightbox', function(){
+      console.log('Image changed to prev');
+    })
+    .on('error.simplelightbox', function(e){
+      console.log('No image found, go to the next/prev');
+      console.log(e);
+    });
+  });
     </script>
     <footer>
       <a href="#top">Back To Top</a>
