@@ -28,12 +28,13 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
+
     $(function() {
       $('.carousel').carousel({
-        interval: 4000
-      })
-    })
-  
+        interval: 4000;
+      });
+    });
+
 
 
 
