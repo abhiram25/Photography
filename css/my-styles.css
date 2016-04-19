@@ -107,8 +107,7 @@ section h1 {
 
 
 .navbar .nav {
-  padding-top: 10px;
-  padding-right: 25px;
+  padding: 25px 25px 20px 0;
 }
 
 .bg-light-gray {
@@ -122,7 +121,7 @@ section h1 {
   
 
 #logo {
-  width: 22.5rem;
+  width: 30.5rem;
   height: auto;
 
 }
@@ -262,13 +261,39 @@ Waypoints
 
 .customer {
    border-radius: 100%;
-   width: 70px;
-   height: 70px;
+   width: 200px;
+   height: 200px;
+     background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
 }
 
-#posts img:nth-of-type(1) {
-  margin-top: 10px;
+#chirag {
+  padding-top: 380px !important;
 }
+
+.chirag {
+  background-image: url('../img/testimonial2.jpg');
+}
+
+.purvi {
+  background-image: url('../img/testimonial1.jpg');
+}
+
+.micah {
+  background-image: url('../img/testimonial3.jpg');
+}
+
+.nilam {
+  background-image: url('../img/testimonial4.jpg');
+}
+
+.hemant {
+  background-image: url('../img/testimonial5.jpg');
+}
+
+
 
 
 
@@ -512,24 +537,16 @@ footer {
   float: left;
 }
 
-
-.review {
-  padding-top: 50px;
+.navbar-brand {
+  padding: -60px 0;
 }
-
-
-
-
-}
-
-@media only screen and (min-width : 992px) {
  
-  .review {
-  padding-left: 15px;
-  padding-top: 50px;
+
+
+
+
 }
-  
-}
+
 
 
 

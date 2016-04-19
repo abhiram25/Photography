@@ -27,8 +27,8 @@ body {
 
 .carousel.carousel-fade .item {
     -webkit-transition: opacity ease-in-out 1s;
-  -moz-transition: opacity ease-in-out 5s;
-  -o-transition: opacity ease-in-out 5s;
+  -moz-transition: opacity ease-in-out 1s;
+  -o-transition: opacity ease-in-out 1s;
   transition: opacity ease-in-out 1s;
   opacity: 0;
   
@@ -53,8 +53,8 @@ body {
 /* Background images are set within the HTML using inline CSS, not here */
 
 .fill {
-    width: 100%;
-    height: 100%;
+    width: 100% !important;
+    height: 100% !important;
     background-position: center !important;
     -webkit-background-size: cover !important;
     -moz-background-size: cover !important;
