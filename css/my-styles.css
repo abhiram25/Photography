@@ -259,7 +259,7 @@ Waypoints
 }
 
 .review {
-  display: block;
+  display: inline;
   margin: 0;
 }
 
@@ -271,6 +271,7 @@ Waypoints
   background-position: center;
   background-repeat: no-repeat;
   display: inline-block;
+  margin-left: 20px;
 }
 
 #chirag {
@@ -506,7 +507,7 @@ a
   
 
 .review {
-  padding-left: 70px;
+  padding-left: 5px;
 }
 
 
