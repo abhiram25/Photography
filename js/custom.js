@@ -14,10 +14,16 @@ $(function() {
             scrollTop: $($anchor.attr('href')).offset().top
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
+    })
+})
+
+$(document).ready(function () {
+    $('.carousel').carousel({
+        interval: 6000
     });
+
+    $('.carousel').carousel('cycle');
 });
-
-
 
 $('body').scrollspy({
     target: '.navbar-fixed-top'
@@ -25,7 +31,7 @@ $('body').scrollspy({
 
 
 $('.navbar-collapse ul li a').click(function() {
-    $('.navbar-toggle:visible').click();
-});
+    $('.navbar-toggle:visible').click()
+})
 
 
